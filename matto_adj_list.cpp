@@ -20,7 +20,7 @@ int main()
     {
         for (int j = 0; j < n; j++)
         {
-            if(mat[i][j] == 1){
+            if(mat[i][j] == 1 && i != j){
                 v[i].push_back(j);
             }
         }
